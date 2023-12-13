@@ -30,7 +30,10 @@ function App() {
         <div className='bg-white w-3/6 p-[10rem] text-black'>
           <h1 className='text-[2rem] font-bold'>Transform your brand</h1>
           <br></br>
-          <p className='text-gray-500'>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you</p>
+          <p className='text-gray-500'>We are a full-service creative agency specializing in<br></br> helping brands grow fast. Engage your clients through <br></br>compelling visuals that do most of the marketing for you</p>
+          <br></br>
+          <br></br>
+          <button className='font-bold underline decoration-[#fae18f] decoration-4'>LEARN MORE</button>
         </div>
         <div className='w-[50%]'>
           <img src='src\assets\images\desktop\image-transform.jpg' className='w-full h-[33rem] object-cover'></img>
