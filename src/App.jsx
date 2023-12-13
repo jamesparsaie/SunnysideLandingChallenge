@@ -114,10 +114,10 @@ function App() {
           <p>Projects</p>
         </div>
         <div className='flex justify-center mt-20 space-x-10'>
-          <img src='src/assets/images/icon-facebook.svg'></img>
-          <img src='src/assets/images/icon-instagram.svg'></img>
-          <img src='src/assets/images/icon-twitter.svg'></img>
-          <img src='src/assets/images/icon-pinterest.svg'></img>
+          <img src='src/assets/images/icon-facebook.svg' className='hover:cursor-pointer'></img>
+          <img src='src/assets/images/icon-instagram.svg' className='hover:cursor-pointer'></img>
+          <img src='src/assets/images/icon-twitter.svg' className='hover:cursor-pointer'></img>
+          <img src='src/assets/images/icon-pinterest.svg' className='hover:cursor-pointer'></img>
         </div>
       </div>
     </div>
