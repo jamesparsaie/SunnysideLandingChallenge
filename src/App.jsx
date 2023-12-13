@@ -101,10 +101,24 @@ function App() {
         <br></br>
       </div>
       <div className='flex'>
-        <img src='src/assets/images/desktop/image-gallery-milkbottles.jpg' className='flex-1 max-w-md object-cover h-auto'></img>
-        <img src='src/assets/images/desktop/image-gallery-orange.jpg' className='flex-1'></img>
-        <img src='src/assets/images/desktop/image-gallery-cone.jpg' className='flex-1'></img>
-        <img src='src/assets/images/desktop/image-gallery-sugarcubes.jpg' className='flex-1'></img>
+        <img src='src/assets/images/desktop/image-gallery-milkbottles.jpg' className='flex-1 max-w-sm object-cover h-auto'></img>
+        <img src='src/assets/images/desktop/image-gallery-orange.jpg' className='flex-1 max-w-sm object-cover h-auto'></img>
+        <img src='src/assets/images/desktop/image-gallery-cone.jpg' className='flex-1 max-w-sm object-cover h-auto'></img>
+        <img src='src/assets/images/desktop/image-gallery-sugarcubes.jpg' className='flex-1 max-w-sm object-cover h-auto'></img>
+      </div>
+      <div className='flex flex-col bg-[#90D4C5] p-20'>
+        <p className='text-center text-[2rem] text-[#307867] font-extrabold'>Sunnyside</p>
+        <div className='flex flex-row justify-center text-[#307867] space-x-20 ml-4 mt-8'>
+          <p>About</p>
+          <p>Services</p>
+          <p>Projects</p>
+        </div>
+        <div className='flex justify-center mt-20 space-x-10'>
+          <img src='src/assets/images/icon-facebook.svg'></img>
+          <img src='src/assets/images/icon-instagram.svg'></img>
+          <img src='src/assets/images/icon-twitter.svg'></img>
+          <img src='src/assets/images/icon-pinterest.svg'></img>
+        </div>
       </div>
     </div>
   )
