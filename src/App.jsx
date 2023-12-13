@@ -26,7 +26,16 @@ function App() {
         <img src='src\assets\images\icon-arrow-down.svg' className='absolute z-10' style={{top: '53vh', left: '50vw', transform: 'translateX(-50%)'}}></img>
         <img src='src\assets\images\desktop\image-header.jpg' alt='header' className='-mt-[20rem] z-0' style={{transform: 'scale(0.8)'}}></img>
       </div>
-      <p>hello</p>
+      <div className='relative z-20 flex -mt-[6.7rem] max-h-1/6'>
+        <div className='bg-white w-3/6 p-[10rem] text-black'>
+          <h1 className='text-[2rem] font-bold'>Transform your brand</h1>
+          <br></br>
+          <p className='text-gray-500'>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you</p>
+        </div>
+        <div className='w-[50%]'>
+          <img src='src\assets\images\desktop\image-transform.jpg' className='w-full h-[33rem] object-cover'></img>
+        </div>
+      </div>
     </div>
   )
 }
